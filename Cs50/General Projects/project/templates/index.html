@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="/static/styles.css" rel="stylesheet">
+        <title>Name Generator</title>
+    </head>
+    <body style="text-align: center">
+        <div class="header">
+            <h1> NAME GENERATOR</h1>
+        </div>
+
+        <div class="centerLarge">
+            <h2>Having trouble naming your child?</h2>
+            <p>Why not let my computer decide for you?</p>
+        </div>
+
+        <form action="generate" method="post">
+            <div class="centerLarge">
+                <label for="gender">My child is a</label>
+                <select name="gender" id="gender">
+                    <option value="boy">Boy</option>
+                    <option value="girl">Girl</option>
+                </select>
+            </div>
+            <button class = "btn btn-primary" type="submit">Generate!</button>
+        </form>
+    </body>
+</html>

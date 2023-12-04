@@ -1,0 +1,16 @@
+.header {
+    background-color: #200132; /*purple*/
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.centerLarge{
+    text-align: center;
+    font-size: large;
+}
+
+.button{
+    font-size: 16px;
+}

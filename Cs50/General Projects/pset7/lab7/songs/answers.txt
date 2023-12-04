@@ -1,0 +1,3 @@
+1. I would characterize the audio aura as high danceability and energy with average energy. People were listening to upbeat, club songs.
+2.This way of calculating the aura might not be representative of the listener because it does not take into account the number of times the songs have been played relative to eachother.
+To calculate a better aura I would include a new column measuring the amount of times the song has been listened to. This will then act as a weighing factor when calculating the average energy, valence and danceability.
