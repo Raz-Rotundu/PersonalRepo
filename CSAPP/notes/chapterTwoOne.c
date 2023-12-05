@@ -6,18 +6,11 @@ void reverse_array(int a[], int cnt);
 int arraySize(int a[]);
 void printArray(int array[], int length);
 
-//--UTILITY
-// Gets the size of an int array
-int arraySize(int a[]){
-    int arrayS = (sizeof(a) / sizeof (a[0]));
-    return arrayS;
-}
-
 //print contents of the array
 void printArray(int array[], int length)
 {
     for(int i = 0; i < length; i++){
-        printf("%i",array[i]);
+        printf("%i\n",array[i]);
     }
 }
 // An array swapper that doesn't work for odd length arrays
@@ -36,9 +29,14 @@ void inplace_swap(int *x, int *y){
 }
 int main(){
     int r[]= {1, 2, 3, 4, 5};
-    int l = arraySize(r);
-    printf("%i" , l); //5
-    //printArray(r, l);
+    int s = sizeof(r) / sizeof(r[0]);
+    printArray(r, s);
+
+    reverse_array(r, s);
+    printf("------------------\n");
+    printArray(r, s);
+
+
 
     return 0;
 }
